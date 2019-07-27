@@ -1,0 +1,3 @@
+SELECT nama.nama, work.nama1, category.salary, nama.id_work
+                    FROM nama, work, category
+                    WHERE nama.id = work.id AND nama.id_salary = category.id
